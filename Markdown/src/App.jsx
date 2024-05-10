@@ -25,7 +25,7 @@ function App() {
     setTitles(newTitles);
     setMarkdown(prevMarkdown => {
       const lines = prevMarkdown.split('\n');
-      lines.splice(-3, 2); // Remove the last two lines corresponding to the last title
+      lines.splice(-3, 2); 
       return lines.join('\n');
     });
   };
